@@ -1,14 +1,34 @@
+% doc format
+% a4, 15mm border, no paragraph indent
 \documentclass[a4paper,12pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{listings}
-\usepackage{graphicx}
 \usepackage[left=15mm,top=15mm]{geometry}
-\usepackage{cancel}
-\usepackage{eurosym}
-\usepackage{xcolor}
+\setlength{\parindent}{0pt}
+
+% modern encodings
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\setlength{\parindent}{0pt}
+
+% listings and codeblocks
+\usepackage{listings}
+
+% images
+\usepackage{graphicx}
+
+% strikethrough
+% e.g. \cancel{strikethrough}
+\usepackage{cancel}
+
+% coloration
+% e.g. {\color{blue}Text}
+\usepackage{xcolor}
+
+% extra symbols
+\usepackage{eurosym}
+
+% for auto-table linebreaks
+% e.g. \begin{tabular}{\textwidth}{l X}
+\usepackage{tabularx}
 
 \begin{document}
 
